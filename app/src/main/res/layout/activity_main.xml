@@ -6,12 +6,15 @@
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:paddingBottom="@dimen/activity_vertical_margin"
-                tools:context=".MainActivity">
+                tools:context=".MainActivity"
+                android:background="#911">
 
     <TextView
-            android:text="@string/hello_world"
+            android:text="ПРИВЕТ УЁБКИ!"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            />
 
 </RelativeLayout>
